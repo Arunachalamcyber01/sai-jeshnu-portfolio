@@ -222,7 +222,7 @@ h3 {
 .more:hover .arrow { transform: translateX(6px); }
 
 /* ---- project cards ---- */
-.cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
 .card { cursor: pointer; }
 .card:hover .arrow { transform: translateX(6px); color: var(--red); }
 .card:hover .thumb { transform: translateY(-4px); border-color: rgba(224,20,30,.5); }
@@ -296,19 +296,6 @@ h3 {
   position: absolute; right: 14px; bottom: 12px;
   font-family: var(--display); font-size: 34px; line-height: 1; color: var(--red);
 }
-
-/* WooCommerce thumbnail */
-.thumb-woo { background: #111; padding: 14px; display: flex; flex-direction: column; gap: 10px; }
-.woo-top { display: flex; justify-content: space-between; align-items: center; }
-.woo-top b { font-family: var(--display); font-weight: 400; font-size: 20px; }
-.woo-top span { font-size: 9px; background: var(--red); color: #fff; padding: 4px 8px; border-radius: 3px; }
-.woo-grid { flex: 1; display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
-.woo-grid div { display: flex; flex-direction: column; gap: 6px; padding: 8px; background: #1b1b1b; border: 1px solid #2a2a2a; border-radius: 4px; }
-.woo-grid i { height: 4px; border-radius: 2px; background: #3a3a3a; }
-.woo-grid i.img { flex: 1; min-height: 30px; background: linear-gradient(135deg, #2c2c2c, #444); }
-.woo-grid i.price { width: 45%; background: var(--red); }
-.woo-bar { height: 5px; border-radius: 3px; background: #2a2a2a; overflow: hidden; }
-.woo-bar span { display: block; height: 100%; background: var(--red); }
 
 /* ---- experience ---- */
 .experience { display: grid; grid-template-columns: 1.4fr 1fr; padding: 0; }
